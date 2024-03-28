@@ -1,0 +1,785 @@
+package_name,summary,license
+_ipyw_jlab_nb_ext_conf,A configuration metapackage for enabling Anaconda-bundled jupyter extensions,BSD
+_libgcc_mutex,Mutex for libgcc and libgcc-ng,None
+_openmp_mutex,OpenMP Implementation Mutex,BSD-3-Clause
+abseil-cpp,Abseil Common Libraries (C++),Apache-2.0
+affine,Matrices describing affine transformation of the plane.,BSD-3-Clause
+agate,A data analysis library that is optimized for humans instead of machines.,MIT
+agate-dbf,agate-dbf adds read support for dbf files to agate.,MIT
+agate-excel,agate-excel adds read support for Excel files (xls and xlsx) to agate.,MIT
+aiobotocore,Async client for aws services using botocore and aiohttp,Apache-2.0
+aiofiles,File support for asyncio,Apache-2.0
+aiohttp,Async http client/server framework (asyncio),Apache-2.0
+aioitertools,asyncio version of the standard multiprocessing module,MIT
+aiosignal,aiosignal: a list of registered asynchronous callbacks,Apache-2.0
+aiosqlite,asyncio bridge to the standard sqlite3 module,MIT
+alabaster,"Configurable, Python 2+3 compatible Sphinx theme.",BSD 3-Clause
+alembic,A database migration tool for SQLAlchemy.,MIT
+anaconda-clean,Delete Anaconda configuration files,BSD-3-Clause
+anaconda-navigator,Anaconda Navigator,"proprietary - Continuum Analytics, Inc."
+anaconda-project,"Tool for encapsulating, running, and reproducing data science projects",BSD-3-Clause
+ansi2html,Convert text with ANSI color codes to HTML or to LaTeX.,LGPL-3.0-or-later
+ant,Java build tool,Apache 2.0
+anyio,High level compatibility layer for multiple asynchronous event loop implementations on Python,MIT
+anyqt,PyQt4/PyQt5 compatibility layer.,GPL-3.0-or-later
+appdirs,A small Python module for determining appropriate platform-specific dirs.,MIT
+apptools,application tools,BSD 3-clause
+argcomplete,Bash tab completion for argparse,Apache-2.0
+argon2-cffi,The secure Argon2 password hashing algorithm.,MIT
+argon2-cffi-bindings,Low-level Python CFFI Bindings for Argon2,MIT
+arrow,Better dates & times for Python,Apache-2.0
+arrow-cpp,C++ libraries for Apache Arrow,Apache-2.0
+astroid,A abstract syntax tree for Python with inference support.,LGPL-2.1-or-later
+astropy,Community-developed Python Library for Astronomy,BSD-3-Clause
+asttokens,The asttokens module annotates Python abstract syntax trees (ASTs) with the positions of tokens and text in the source code that generated them.,Apache-2.0
+async-timeout,Timeout context manager for asyncio programs,Apache-2.0
+asyncpg,A fast PostgreSQL Database Client Library for Python/asyncio.,Apache-2.0
+asyncpgsa,A fast PostgreSQL Database Client Library for Python/asyncio.,Apache 2.0
+atomicwrites,Atomic file writes,MIT
+attrs,attrs is the Python package that will bring back the joy of writing classes by relieving you from the drudgery of implementing object protocols (aka dunder methods).,MIT
+automake,Tool for automatically generating Makefile.in files compliant with the GNU Coding Standards.,GPL-2.0-or-later
+automat,self-service finite-state machines for the programmer on the go,MIT
+autopep8,A tool that automatically formats Python code to conform to the PEP 8 style guide,MIT
+autovizwidget,AutoVizWidget: An Auto-Visualization library for pandas dataframes,BSD-3-Clause
+aws-c-common,"Core c99 package for AWS SDK for C. Includes cross-platform primitives, configuration, data structures, and error handling.",Apache-2.0
+aws-c-event-stream,C99 implementation of the vnd.amazon.eventstream content-type.,Apache-2.0
+aws-checksums,Cross-Platform HW accelerated CRC32c and CRC32 with fallback to efficient SW implementations. C interface with language bindings for each of our SDKs.,Apache-2.0
+aws-sdk-cpp,C++ library that makes it easy to integrate C++ applications with AWS services,Apache-2.0
+babel,Utilities to internationalize and localize Python applications,BSD-3-Clause
+backcall,Specifications for callback functions passed in to an API,BSD-3-Clause
+backports.os,Backport of new features in Python's os module,Python Software Foundation
+backports.weakref,Backport of new features in Python's weakref module,Python-2.0
+bandersnatch,PyPI mirror client according to PEP 381,Academic Free License
+basemap,Plot on map projections using matplotlib,MIT
+bcrypt,Modern password hashing for your software and your servers,Apache-2.0
+beautifulsoup4,Python library designed for screen-scraping,MIT
+binaryornot,Ultra-lightweight pure Python package to check if a file is binary or text.,BSD-3-Clause
+biopython,Collection of freely available tools for computational molecular biology,Biopython License Agreement
+bkcharts,High level chart types built on top of Bokeh,BSD-3-Clause
+black,The Uncompromising Code Formatter,MIT
+blas,Linear Algebra PACKage,BSD-3-Clause
+bleach,"Easy, whitelist-based HTML-sanitizing tool",Apache-2.0
+blosc,"A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`",BSD-3-Clause
+bokeh,Bokeh is an interactive visualization library for modern web browsers.,BSD-3-Clause
+boost,Free peer-reviewed portable C++ source libraries.,BSL-1.0
+boost-cpp,Free peer-reviewed portable C++ source libraries.,BSL-1.0
+boto3,Amazon Web Services SDK for Python,Apache-2.0
+botocore,"Low-level, data-driven core of boto 3.",Apache-2.0
+bottlechest,fast NumPy array functions specialized for use in Orange,BSD
+bottleneck,Fast NumPy array functions written in Cython.,BSD-2-Clause
+brotli,Brotli compression format,MIT
+brotli-bin,Brotli compression format,MIT
+brotlipy,Python bindings to the Brotli compression library,MIT
+brunsli,Practical JPEG Repacker,MIT
+bsdiff4,binary diff and patch using the BSDIFF4-format,BSD
+btrees,scalable persistent object containers,ZPL 2.1
+bz2file,Read and write bzip2-compressed files.,Apache Software
+bzip2,high-quality data compressor,bzip2
+c-ares,"This is c-ares, an asynchronous resolver library",MIT
+c-blosc2,"A simple, compressed, fast and persistent data store library for C",BSD-3-Clause
+ca-certificates,Certificates for use with other packages.,MPL-2.0
+cachecontrol,httplib2 caching algorithms for use with requests,Apache-2.0
+cached-property,A decorator for caching properties in classes.,BSD-3-Clause
+capturer,Easily capture stdout/stderr of the current process and subprocesses.,MIT
+cartopy,A library providing cartographic tools for python,LGPL-3.0-or-later
+certifi,Python package for providing Mozilla's CA Bundle.,MPL-2.0
+cffi,Foreign Function Interface for Python calling C code.,MIT
+cfitsio,A library for reading and writing FITS files,Other
+chainer,A flexible framework of neural networks,MIT License
+chameleon,HTML/XML template engine for Python,Repoze
+chardet,Universal character encoding detector,LGPL2
+charls,CharLS is a C++ implementation of the JPEG-LS standard for lossless and near-lossless image compression and decompression. JPEG-LS is a low-complexity image compression standard that matches JPEG 2000 compression ratios.,BSD-3-Clause
+charset-normalizer,"The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",MIT
+cherrypy,Object-Oriented HTTP framework,BSD-3-Clause
+chest,Simple on-disk dictionary,BSD 3-Clause
+click,Python composable command line interface toolkit,BSD-3-Clause
+click-plugins,An extension module for click to enable registering CLI commands via setuptools entry-points,BSD-3-Clause
+cligj,Click params for command line interfaces to GeoJSON.,BSD 3-Clause
+cloudpickle,Extended pickling support for Python objects,BSD-3-Clause
+cmake,"CMake is an extensible, open-source system that manages the build process",BSD-3-Clause
+colander,"A serialization, deserialization, and validation library",BSD-like
+colorama,Cross-platform colored terminal text,BSD-3-Clause
+colorcet,Collection of perceptually uniform colormaps,CC-BY-4.0
+comm,Python Comm implementation for the Jupyter kernel protocol,BSD-3-Clause
+conda,"OS-agnostic, system-level binary package and environment manager.",BSD-3-Clause
+conda-build,tools for building conda packages,BSD-3-Clause
+conda-env,Tools for interacting with conda environments.,BSD 3-Clause
+conda-verify,tool for validating conda recipes and conda packages,BSD 3-Clause
+configargparse,A drop-in replacement for argparse that allows options to also be set via config files and/or environment variables.,MIT
+configobj,"Config file reading, writing and validation.",BSD License
+console_shortcut,Anaconda Powershell Prompt,BSD
+constantly,Symbolic constants in Python,MIT
+constructor,create installer from conda packages,BSD-3-Clause
+contextlib2,Backports and enhancements for the contextlib module,PSF-2.0 AND Apache-2.0
+contourpy,Python library for calculating contours of 2D quadrilateral grids.,BSD-3-Clause
+cookiecutter,"A command-line utility that creates projects from cookiecutters (project templates), e.g. creating a Python package project from a Python package project template.",BSD-3-Clause
+cornice,build and document Web Services with Pyramid,MPL 2.0
+coverage,Code coverage measurement for Python,Apache-2.0
+cryptography,Provides cryptographic recipes and primitives to Python developers,(BSD-3-Clause OR Apache-2.0) AND PSF-2.0 AND MIT
+cssselect,CSS Selectors for Python,BSD 3-Clause
+csvkit,"A suite of command-line tools for working with CSV, the king of tabular file formats.",MIT
+cubes,A light-weight Python OLAP framework for data warehouses,MIT
+cudatoolkit,CUDA Toolkit - Including CUDA runtime and headers,NVIDIA End User License Agreement
+cudnn,NVIDIA's cuDNN deep neural network acceleration library,Proprietary
+curl,tool and library for transferring data with URL syntax,curl
+cvxcanon,Low-level library to perform the matrix building step in CVXPY,GPL3
+cvxopt,Convex optimization package,GPL-3.0-or-later
+cycler,Composable style cycles.,BSD-3-Clause
+cytoolz,Cython implementation of Toolz. High performance functional utilities,BSD-3-Clause
+daal4py,A convenient Python API to Intel (R) oneAPI Data Analytics Library,Apache-2.0
+dal,Intel® oneDAL runtime libraries,Intel Simplified Software License
+dask,Parallel PyData with Task Scheduling,BSD-3-Clause
+dask-core,Parallel Python with task scheduling,BSD-3-Clause
+dask-glm,Generalized Linear Models in Dask,BSD-3-Clause
+dask-ml,Distributed and parallel machine learning using dask.,BSD-3-Clause
+dask-searchcv,Tools for doing hyperparameter search with Scikit-Learn and Dask,BSD-3-Clause
+datasets,HuggingFace community-driven open-source library of datasets,Apache-2.0
+datashader,Data visualization toolchain based on aggregating into a grid,BSD-3-Clause
+datashape,A data description language.,BSD 2-Clause
+datrie,"Super-fast, efficiently stored Trie for Python, uses libdatrie",LGPLv2
+db,The Berkeley DB embedded database system.,AGPL-3.0-only
+dbf,"Pure python package for reading/writing dBase, FoxPro, and Visual FoxPro .dbf files (including memos)",BSD-3-Clause
+dbus,Simple message bus system for applications to talk to one another,GPL2
+debugpy,An implementation of the Debug Adapter Protocol for Python,MIT
+decorator,Better living through Python with decorators.,BSD-2-Clause
+defusedxml,XML bomb protection for Python stdlib modules,PSF 2.0
+diff-match-patch,Diff Match Patch is a high-performance library in multiple languages that manipulates plain text,Apache-2.0
+dill,Serialize all of python (almost),BSD-3-Clause
+distlib,Distribution utilities for python,Python-2.0
+distributed,Distributed computing with Dask,BSD-3-Clause
+django,"A high-level Python Web framework that encourages rapid development and clean, pragmatic design.",BSD-3-Clause AND PSF-2.0
+dnspython,DNS toolkit,ISC
+docopt,"Pythonic argument parser, that will make you smile",MIT
+docstring-to-markdown,On the fly conversion of Python docstrings to markdown,LGPL-2.1-or-later
+docutils,Docutils -- Python Documentation Utilities,LicenseRef-Public-Domain-Dedictation and BSD-2-Clause and LicenseRef-PSF-2.1.1 and GPL-3.0-or-later
+dropbox,Official Dropbox API Client,MIT
+ecdsa,ECDSA cryptographic signature library (pure python),MIT
+ecos,Python interface for ECOS a lightweight conic solver for second-order cone programming,GPL-3.0-only
+elasticsearch,Python client for Elasticsearch,Apache-2.0
+elasticsearch-async,Async backend for elasticsearch-py,Apache 2.0
+elasticsearch-dsl,Higher-level Python client for Elasticsearch,Apache-2.0
+enaml,Declarative DSL for building rich user interfaces in Python,BSD-3-Clause
+entrypoints,Discover and load entry points from installed packages.,MIT License
+envisage,extensible application framework,BSD-3-clause
+ephem,Basic astronomical computations for Python,MIT
+et_xmlfile,An implementation of lxml.xmlfile for the standard library,MIT AND PSF-2.0
+executing,"Get the currently executing AST node of a frame, and other information",MIT
+expat,Expat XML parser library in C,MIT
+fastparquet,Python interface to the parquet format,Apache-2.0
+feedparser,parse feeds in Python,OSI Approved
+filelock,A platform independent file lock.,Unlicense
+fiona,Fiona reads and writes spatial data files,BSD-3-Clause
+flake8,Your Tool For Style Guide Enforcement,MIT
+flask,A simple framework for building complex web applications.,BSD-3-Clause
+flask-cors,A Flask extension adding a decorator for CORS support,MIT
+flask-login,User session management for Flask,MIT
+flask-socketio,Socket.IO integration for Flask applications,MIT
+flask-wtf,Simple integration of Flask and WTForms,BSD-3-Clause
+fontconfig,A library for configuring and customizing font access.,MIT
+fonttools,"fontTools is a library for manipulating fonts, written in Python.",MIT
+freetds,"FreeTDS is a free implementation of Sybase's DB-Library, CT-Library, and ODBC libraries",LGPL-2.0
+freetype,"A Free, High-Quality, and Portable Font Engine",GPL-2-only and LicenseRef-FreeType
+frozenlist,A list-like structure which implements collections.abc.MutableSequence,Apache-2.0
+fsspec,A specification for pythonic filesystems,BSD-3-Clause
+fuel,data pipeline framework for machine learning,MIT License
+furl,URL manipulation made simple.,PUBLIC-DOMAIN
+future,Clean single-source support for Python 3 and 2,MIT
+gdal,The Geospatial Data Abstraction Library (GDAL),MIT
+gensim,Topic Modelling for Humans,LGPL-2.1-only
+geos,Geometry Engine - Open Source,LGPL-2.1
+gevent-websocket,"Websocket handler for the gevent pywsgi server, a Python network library",Apache
+gflags,A C++ library that implements commandline flags processing.,BSD 3-Clause
+giflib,Library for reading and writing gif images,MIT
+git,distributed version control system,GPL-2.0-or-later and LGPL-2.1-or-later
+gitpython,Python Git Library,BSD-3-Clause
+glib,Provides core application building blocks for libraries and applications written in C.,LGPL-2.1-or-later
+glog,C++ implementation of the Google logging module.,BSD-3-Clause
+glue-core,Multi-dimensional linked data exploration,BSD-3-Clause
+glue-vispy-viewers,3D viewers for Glue,BSD-2-Clause
+glueviz,Multi-dimensional linked data exploration,BSD-3-Clause
+gmp,The GNU multiprecision library.,GPL-2.0-or-later AND LGPL-3.0-or-later
+gmpy2,"GMP/MPIR, MPFR, and MPC interface to Python 2.6+ and 3.x",LGPL-3.0-or-later
+graphviz,Open Source graph visualization software.,EPL-1.0
+greenlet,Lightweight in-process concurrent programming,MIT
+gridmap,Map Python functions onto a cluster using a grid engine,GPL3
+grpc-cpp,"gRPC - A high-performance, open-source universal RPC framework",Apache-2.0
+gsl,GNU Scientific Library,GPL-3.0-or-later
+gst-plugins-base,GStreamer Base Plug-ins,GPL2
+gstreamer,Library for constructing graphs of media-handling components,LGPL 2
+gunicorn,WSGI HTTP Server for UNIX,MIT
+h2o,hadoop-centric machine learning (core java package),
+h5py,Read and write HDF5 files from Python,BSD-3-Clause
+hdf4,Library and multi-object file format for storing and managing data between machines.,BSD 3-Clause
+hdf5,"HDF5 is a data model, library, and file format for storing and managing data",OTHER
+hdfs3,Python wrapper for libhdfs3,BSD 3-Clause
+hdijupyterutils,Project with useful classes/methods for all projects created by the HDInsight team at Microsoft around Jupyter,BSD-3-Clause
+heapdict,A heap with decrease-key and increase-key operations,BSD 3-Clause
+holoviews,Stop plotting your data - annotate your data and let it visualize itself.,BSD-3-Clause
+html5lib,HTML parser based on the WHATWG HTML specification,MIT
+huggingface_hub,"Client library to download and publish models, datasets and other repos on the huggingface.co hub",Apache-2.0
+humanize,Python humanize utilities,MIT
+hvplot,A high-level plotting API for the PyData ecosystem built on HoloViews,BSD-3-Clause
+hyperlink,"Immutable, Pythonic, correct URLs.",MIT
+hypothesis,A library for property based testing,MPL-2.0
+ibis-framework,Productivity-centric Python Big Data Framework,Apache 2.0
+icu,International Components for Unicode.,MIT
+idna,Internationalized Domain Names in Applications (IDNA).,BSD-3-Clause
+imagecodecs,"Image transformation, compression, and decompression codecs",BSD-3-Clause
+imageio,A Python library for reading and writing image data,BSD-2-Clause
+imagesize,Getting image size from png/jpeg/jpeg2000/gif file,MIT
+imbalanced-learn,Python module to balance data set using under- and over-sampling,MIT
+importlib-metadata,A library to access the metadata for a Python package.,Apache-2.0
+importlib_metadata,A library to access the metadata for a Python package.,Apache-2.0
+impyla,Python client for the Impala distributed query engine,Apache-2.0
+incremental,Incremental is a small library that versions your Python projects.,MIT
+inflection,A port of Ruby on Rails inflector to Python,MIT
+iniconfig,iniconfig: brain-dead simple config-ini parsing,MIT
+intake,Data load and catalog system,BSD-2-Clause
+intel-openmp,Math library for Intel and compatible processors,LicenseRef-ProprietaryIntel
+intervaltree,Editable interval tree data structure for Python 2 and 3,Apache-2.0
+ipykernel,IPython Kernel for Jupyter,BSD-3-Clause
+ipyparallel,Interactive Parallel Computing with IPython,BSD-3-Clause
+ipython,IPython: Productive Interactive Computing,BSD-3-Clause
+ipython_genutils,vestigial utilities from IPython,BSD 3-Clause
+ipywidgets,Jupyter Interactive Widgets,BSD-3-Clause
+iso8601,Simple module to parse ISO 8601 dates,MIT
+isort,A Python utility,library to sort Python imports.
+itemadapter,Common interface for different data containers,BSD-3-Clause
+itemloaders,Collect data from HTML and XML sources,BSD-3-Clause
+itsdangerous,Various helpers to pass trusted data to untrusted environments.,BSD-3-Clause
+jaraco.classes,jaraco.classes,MIT
+jasper,A reference implementation of the codec specified in the JPEG-2000 Part-1 standard.,JasPer 2.0
+jedi,An autocompletion tool for Python that can be used for text editors.,MIT
+jeepney,Pure Python DBus interface,MIT
+jellyfish,a library for doing approximate and phonetic matching of strings.,BSD-2-Clause
+jinja2,A very fast and expressive template engine.,BSD-3-Clause
+jinja2-time,Jinja2 Extension for Dates and Times,MIT
+jmespath,Query language for JSON,MIT
+joblib,Lightweight pipelining: using Python functions as pipeline jobs.,BSD-3-Clause
+jpeg,"read/write jpeg COM, EXIF, IPTC medata",IJG
+jq,A command-line JSON processor.,MIT
+json5,A Python implementation of the JSON5 data format,Apache-2.0
+jsonschema,An implementation of JSON Schema validation for Python,MIT
+jupyter,Jupyter metapackage. Install all the Jupyter components in one go.,BSD-3-Clause
+jupyter_client,Jupyter protocol implementation and client libraries.,BSD-3-Clause
+jupyter_console,Jupyter terminal console,BSD-3-Clause
+jupyter_core,Core common functionality of Jupyter projects.,BSD-3-Clause
+jupyter_events,Jupyter Event System library,BSD-3-Clause
+jupyter_server,Jupyter Server,BSD-3-Clause
+jupyter_server_fileid,A Jupyter Server extension providing an implementation of the File ID service.,BSD-3-Clause
+jupyter_server_ydoc,A Jupyter Server Extension providing support for Y documents.,BSD-3-Clause
+jupyter_ydoc,Document structures for collaborative editing using Ypy,BSD-3-Clause
+jupyterlab,JupyterLab 3.6.3,BSD-3-Clause
+jupyterlab_launcher,A Launcher for JupyterLab based applications.,BSD 3-Clause
+jupyterlab_pygments,Pygments syntax coloring scheme making use of the JupyterLab CSS variables,BSD-3-Clause
+jupyterlab_server,A set of server components for JupyterLab and JupyterLab like applications.,BSD-3-Clause
+jupyterlab_widgets,JupyterLab extension providing HTML widgets,BSD-3-Clause
+jxrlib,"jxrlib - JPEG XR Library by Microsoft, built from Debian hosted sources.",BSD-2-Clause
+kealib,The KEA format provides an implementation of the GDAL specification within the the HDF5 file format.,MIT
+keras,Deep Learning Library for Theano and TensorFlow,Apache-2.0
+keras-gpu,Deep Learning Library for Theano and TensorFlow,MIT
+keyring,Store and access your passwords safely,MIT
+kiwisolver,An efficient C++ implementation of the Cassowary constraint solver,BSD-3-Clause
+knit,Python interface YARN,BSD 3-Clause
+krb5,A network authentication protocol.,MIT
+lancet,"Launch jobs, organize the output, and dissect the results.",BSD-3-Clause
+lazy-object-proxy,A fast and thorough lazy object proxy,BSD-2-Clause
+lazy_loader,Easily load subpackages and functions on demand,BSD-3-Clause
+lcms2,Open Source Color Management Engine,MIT
+ld_impl_linux-64,"A set of programming tools for creating and managing binary programs, object files, libraries, profile data, and assembly source code.",GPL-3.0-only
+ldap3,A strictly RFC 4510 conforming LDAP V3 pure Python client library,LGPL-3.0
+lerc,LERC - Limited Error Raster Compression,Apache-2.0
+libaec,Adaptive Entropy Coding library,BSD-2-Clause
+libarchive,Multi-format archive and compression library,BSD-2-Clause
+libboost,Free peer-reviewed portable C++ source libraries.,BSL-1.0
+libbrotlicommon,Brotli compression format,MIT
+libbrotlidec,Brotli compression format,MIT
+libbrotlienc,Brotli compression format,MIT
+libclang,Development headers and libraries for Clang,Apache-2.0 WITH LLVM-exception
+libcurl,tool and library for transferring data with URL syntax,curl
+libcxxabi,LLVM C++ standard library,Apache-2.0 WITH LLVM-exception
+libdeflate,"libdeflate is a library for fast, whole-buffer DEFLATE-based compression and decompression.",MIT
+libedit,Editline Library (libedit),BSD-2-Clause
+libev,"A full-featured and high-performance event loop that is loosely modeled after libevent, but without its limitations and bugs.",BSD-2-Clause
+libevent,An event notification library.,BSD-3-Clause
+libffi,A Portable Foreign Function Interface Library,MIT
+libgcc-ng,The GCC low-level runtime library,GPL-3.0-only WITH GCC-exception-3.1
+libgdal,The Geospatial Data Abstraction Library (GDAL),MIT
+libgfortran-ng,The GNU Fortran Runtime Library,GPL-3.0-only WITH GCC-exception-3.1
+libgfortran5,Fortran compiler and libraries from the GNU Compiler Collection,GPL-3.0-only WITH GCC-exception-3.1
+libgomp,The GCC OpenMP implementation.,GPL-3.0-only WITH GCC-exception-3.1
+libgpuarray,Library to manipulate arrays on GPU,ISC
+libhdfs3,A Native C/C++ HDFS Client,Apache-2.0
+libiconv,Provides iconv for systems which don't have one (or that cannot convert from/to Unicode.),GPL-3.0-or-later
+libllvm10,Development headers and libraries for LLVM,Apache-2.0 WITH LLVM-exception
+libllvm14,Development headers and libraries for LLVM,Apache-2.0 WITH LLVM-exception
+libllvm9,Development headers and libraries for LLVM,Apache-2.0 WITH LLVM-exception
+libnetcdf,Libraries and data formats that support array-oriented scientific data.,BSD-3-Clause
+libnghttp2,This is an implementation of Hypertext Transfer Protocol version 2.,MIT
+libopenblas,An Optimized BLAS library,BSD-3-Clause
+libopenblas-static,OpenBLAS static libraries.,BSD-3-Clause
+libpng,PNG reference library,Zlib
+libpq,The postgres runtime libraries and utilities (not the server itself),PostgreSQL
+libprotobuf,"Protocol Buffers - Google's data interchange format. C++ Libraries and protoc, the protobuf compiler.",BSD-3-Clause
+libsodium,A modern and easy-to-use crypto library.,ISC
+libspatialindex,Extensible framework for robust spatial indexing,MIT
+libssh2,the SSH library,BSD-3-Clause
+libstdcxx-ng,The GNU C++ Runtime Library,GPL-3.0-only WITH GCC-exception-3.1
+libthrift,Compiler and C++ libraries and headers for the Apache Thrift RPC system,Apache-2.0
+libtiff,Support for the Tag Image File Format (TIFF).,HPND
+libuuid,Portable uuid C library 2.32.1 as pk-version 1.41.5.,BSD-3-Clause
+libwebp,WebP image library,BSD-3-Clause
+libwebp-base,WebP image library,BSD-3-Clause
+libxcb,This is the C-language Binding (XCB) package to the X Window System protocol,MIT
+libxgboost,"Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow",Apache-2.0
+libxkbcommon,keymap handling library for toolkits and window systems,MIT/X11 Derivative
+libxml2,The XML C parser and toolkit of Gnome,MIT
+libxslt,The XSLT C library developed for the GNOME project,MIT
+libzopfli,"A compression library programmed in C to perform very good, but slow, deflate or zlib compression.",Apache-2.0
+lighttpd,"Light, fast web server",BSD-3-Clause
+line_profiler,Line-by-line profiling for Python,BSD-3-Clause AND PSF-2.0
+linkify-it-py,Links recognition library with FULL unicode support.,MIT
+llvmlite,A lightweight LLVM python binding for writing JIT compilers.,BSD-2-Clause
+locket,File-based locks for Python for Linux and Windows,BSD-2-Clause
+lockfile,Platform-independent file locking module,MIT
+luigi,Workflow mgmgt + task scheduling + dependency resolution.,Apache-2.0
+lxml,Pythonic binding for the C libraries libxml2 and libxslt.,BSD-3-Clause and GPL-2.0-only and ZPL-2.0 and LicenseRef-ElementTree
+lz4,LZ4 Bindings for Python,BSD-3-Clause
+lz4-c,Extremely Fast Compression algorithm,BSD-2-Clause
+lzo,LZO is a portable lossless data compression library written in ANSI C.,GPL v2+
+m4,Implementation of the traditional Unix macro processor.,GPL-3.0
+mako,A super-fast templating language that borrows the best ideas from the existing templating languages.,MIT
+markdown,Python implementation of Markdown.,BSD-3-Clause
+markdown-it-py,"Python port of markdown-it. Markdown parsing, done right!",MIT
+markdown2,fast and complete Python implementation of Markdown,MIT
+markupsafe,Safely add untrusted strings to HTML/XML markup.,BSD-3-Clause
+matplotlib,Publication quality figures in Python,LicenseRef-PSF-based
+matplotlib-base,Publication quality figures in Python,LicenseRef-PSF-based
+matplotlib-inline,Inline Matplotlib backend for Jupyter,BSD-3-Clause
+mccabe,McCabe complexity checker for Python,MIT
+mdit-py-plugins,Collection of plugins for markdown-it-py,MIT
+mdp,A Python data processing framework.,BSD
+mdurl,URL utilities for markdown-it-py parser.,MIT
+meld3,An HTML/XML templating engine,BSD-derived
+memory_profiler,A module for monitoring memory usage of a python program,BSD 3-Clause
+mistune,A sane Markdown parser with useful plugins and renderers.,BSD-3-Clause
+mkl,Math library for Intel and compatible processors,LicenseRef-ProprietaryIntel
+mkl-devel,Metapackage of MKL headers and libraries for developing software that uses MKL,LicenseRef-ProprietaryIntel
+mkl-include,MKL headers for developing software that uses MKL,LicenseRef-ProprietaryIntel
+mkl-service,Python hooks for Intel(R) Math Kernel Library runtime control settings.,BSD-3-Clause
+mkl_fft,NumPy-based implementation of Fast Fourier Transform using Intel (R) Math Kernel Library.,BSD-3-Clause
+mkl_random,Intel (R) MKL-powered package for sampling from common probability distributions into NumPy arrays.,BSD-3-Clause
+mock,A library for testing in Python,BSD-2-Clause
+mongodb,A next-gen database that lets you do things you could never do before,SSPL-1.0
+more-itertools,"More routines for operating on iterables, beyond itertools",MIT
+morfessor,Library for unsupervised and semi-supervised morphological segmentation,BSD 2-Clause
+mpc,A C library for the arithmetic of complex numbers with arbitrarily high precision.,LGPL-3-or-later
+mpfr,The MPFR library is a C library for multiple-precision floating-point computations with correct rounding.,LGPL-3.0-only
+mpi,Metapackage to select the MPI variant. Use conda's pinning mechanism in your environment to control which variant you want.,BSD-3-Clause
+mpi4py,Python bindings for MPI,BSD-2-Clause
+mpich,A high performance widely portable implementation of the MPI standard.,LicenseRef-MPICH
+mpir,Multiple Precision Integers and Rationals.,LGPL 3
+mpld3,D3 Viewer for Matplotlib.,BSD-3-Clause
+mpmath,Python library for arbitrary-precision floating-point arithmetic,BSD-3-Clause
+msgpack-python,MessagePack (de)serializer,Apache-2.0
+multidict,The multidict implementation,Apache-2.0
+multipledispatch,Multiple dispatch in Python,BSD 3-Clause
+multiprocess,better multiprocessing and multithreading in python,BSD-3-Clause
+munch,A dot-accessible dictionary (a la JavaScript objects),MIT
+munkres,The Munkres module provides an O(n^3) implementation of the Munkres algorithm (also called the Hungarian algorithm or the Kuhn-Munkres algorithm).,Apache-2.0
+mypy,Optional static typing for Python,MIT
+mypy_extensions,Experimental type system extensions for programs checked with the mypy typechecker.,MIT
+mysql,Open source relational database management system.,GPL-2.0
+natsort,Sort lists naturally,MIT
+navigator-updater,Anaconda Navigator Updater,"proprietary - Anaconda, Inc."
+nb_anacondacloud,Interact with Anaconda Cloud,BSD-3-Clause
+nb_conda,Conda environment and package access extension from within Jupyter,BSD-3-Clause
+nb_conda_kernels,Launch Jupyter kernels for any installed conda environment,BSD 3-Clause
+nbclassic,Jupyter Notebook as a Jupyter Server Extension.,BSD-3-Clause
+nbclient,A client library for executing notebooks. Formally nbconvert's ExecutePreprocessor.,BSD-3-Clause
+nbconvert,Converting Jupyter Notebooks,BSD-3-Clause
+nbformat,The Jupyter Notebook format,BSD-3-Clause
+ncurses,Library for text-based user interfaces,MIT AND X11
+neo4j-python-driver,Database connector for Neo4j graph database,Apache-2.0
+neon,Nervana's Python-based Deep Learning framework,Apache 2.0
+nest-asyncio,Patch asyncio to allow nested event loops,BSD-2-Clause
+netcdf4,netcdf4-python is a Python interface to the netCDF C library.,MIT
+networkx,Python package for creating and manipulating complex networks,BSD-3-Clause
+nginx,Nginx is an HTTP and reverse proxy server,BSD-2-Clause
+ninja,A small build system with a focus on speed,Apache-2.0
+ninja-base,A small build system with a focus on speed,Apache-2.0
+nltk,Natural Language Toolkit,Apache-2.0
+nodejs,"Node.js is an open-source, cross-platform JavaScript runtime environment.",MIT
+nomkl,,BSD-3-clause
+nose-parameterized,Parameterized testing with any Python test framework.,BSD-2-Clause
+notebook,Jupyter Notebook,BSD-3-Clause
+notebook-shim,A shim layer for notebook traits and config,BSD-3-Clause
+nspr,A platform-neutral API for system level and libc-like functions.,MPL-2.0
+nss,A set of libraries designed to support cross-platform development of security-enabled client and server applications.,MPL-2.0
+numba,NumPy aware dynamic Python compiler using LLVM,BSD-2-Clause
+numexpr,Fast numerical expression evaluator for NumPy.,MIT
+numpy,"Array processing for numbers, strings, records, and objects.",BSD-3-Clause
+numpy-base,"Array processing for numbers, strings, records, and objects.",BSD-3-Clause
+numpydoc,Sphinx extension to support docstrings in Numpy format,BSD-3-Clause
+odo,Data migration in Python,BSD-3-Clause
+olefile,"parse, read and write Microsoft OLE2 files",BSD 2-Clause
+oniguruma,A regular expression library.,BSD-2-Clause
+openblas,An optimized BLAS library,BSD-3-Clause
+openblas-devel,OpenBLAS headers and libraries for developing software that used OpenBLAS.,BSD-3-Clause
+opencv,Computer vision and machine learning software library.,Apache-2.0
+openjdk,The JetBrains Runtime OpenJDK build.,GPL-2.0-only
+openjpeg,An open-source JPEG 2000 codec written in C,BSD 2-Clause
+openldap,OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol.,OLDAP-2.8
+openmpi,An open source Message Passing Interface implementation.,BSD 3-Clause
+openpyxl,A Python library to read/write Excel 2010 xlsx/xlsm files,MIT
+openssl,OpenSSL is an open-source implementation of the SSL and TLS protocols,Apache-2.0
+opentracing,OpenTracing API for Python.,MIT
+opentracing_instrumentation,Tracing Instrumentation using OpenTracing API (http://opentracing.io),MIT
+orc,C++ libraries for Apache ORC,Apache-2.0
+packaging,Core utilities for Python packages,Apache-2.0 or BSD-2-Clause
+pandas,"High-performance, easy-to-use data structures and data analysis tools.",BSD-3-Clause
+pandas-datareader,"Up to date remote data access for pandas, works for multiple versions of pandas",BSD-3
+pandas-profiling,Generate profile report for pandas DataFrame,MIT
+pandasql,Sqldf for pandas,BSD
+pandocfilters,A python module for writing pandoc filters,BSD-3-Clause
+panel,The powerful data exploration & web app framework for Python,BSD-3-Clause
+param,Param: Make your Python code clearer and more reliable by declaring Parameters,BSD-3-Clause
+paramiko,SSH2 protocol library,LGPL-2.1-or-later
+parsedatetime,Parse human-readable date/time text,Apache-2.0
+parsel,library to extract data from HTML and XML using XPath and CSS selectors,BSD-3-Clause
+parso,A Python Parser,MIT
+partd,Appendable key-value storage,BSD-3-Clause
+passlib,comprehensive password hashing framework supporting over 30 schemes,BSD 3-Clause
+pathlib,Object-oriented filesystem paths,MIT
+pathspec,Utility library for gitignore style pattern matching of file paths.,MPL-2.0
+pathtools,Path utilities for Python.,MIT
+patsy,Describing statistical models in Python using symbolic formulas,BSD-2-Clause AND PSF-2.0
+pcre,Regular expression pattern matching using the same syntax and semantics as Perl 5.,BSD 3-Clause
+pep8,Python style guide checker,MIT
+perl,The Perl programming language interpreter.,GPL-1.0-or-later OR Artistic-1.0-Perl
+petl,"A Python package for extracting, transforming and loading tables of data.",MIT
+pexpect,Pexpect makes Python a better tool for controlling other applications.,ISC
+pickleshare,Tiny 'shelve'-like database with concurrency support,MIT
+pillow,Pillow is the friendly PIL fork by Alex Clark and Contributors,LicenseRef-PIL
+pip,PyPA recommended tool for installing Python packages,MIT
+pivottablejs,PivotTable.js integration for Jupyter/IPython Notebook,MIT License
+plac,The smartest command line arguments parser in the world,BSD-2-Clause
+platformdirs,"A small Python module for determining appropriate platform-specific dirs, e.g. a ""user data dir"".",MIT
+plotly,An interactive JavaScript-based visualization library for Python,MIT
+pluggy,Plugin registration and hook calling for Python,MIT
+ply,Python Lex-Yacc,BSD 3-clause
+pomegranate,"Pomegranate is a graphical models library for Python, implemented in Cython for speed.",MIT
+pooch,A friend to fetch your data files,BSD-3-Clause
+portaudio,"A cross platform, open-source, audio I/O library",MIT
+portend,TCP port monitoring utilities,MIT
+portpicker,A library to choose unique available network ports.,Apache-2.0
+posix_ipc,POSIX IPC for Python,BSD
+postgresql,"PostgreSQL is a powerful, open source object-relational database system.",PostgreSQL
+poyo,A lightweight YAML Parser for Python,MIT
+progress,Easy progress reporting for Python,ISC
+proj4,Cartographic projection software.,MIT
+prometheus_client,Python client for the Prometheus monitoring system,Apache-2.0
+prompt-toolkit,Library for building powerful interactive command lines in Python,BSD-3-Clause
+prompt_toolkit,Library for building powerful interactive command lines in Python,BSD-3-Clause
+protego,A pure-Python robots.txt parser with support for modern conventions,BSD 3-Clauses
+protobuf,Protocol Buffers - Google's data interchange format.,BSD-3-Clause
+psqlodbc,psqlODBC is the official PostgreSQL ODBC Driver,LGPL-2.0
+psutil,A cross-platform process and system utilities module for Python,BSD-3-Clause
+psycopg2,PostgreSQL database adapter for Python,LGPL-3.0-or-later
+ptyprocess,Run a subprocess in a pseudo terminal,ISC
+pure_eval,Safely evaluate AST nodes without side effects,MIT
+py-boost,Free peer-reviewed portable C++ source libraries.,BSL-1.0
+py-cpuinfo,A module for getting CPU info with Python 2 & 3,MIT
+py-xgboost,"Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library, for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow",Apache-2.0
+py4j,Enables Python programs to dynamically access arbitrary Java objects,BSD-3-Clause
+pyarrow,Python libraries for Apache Arrow,Apache-2.0
+pyasn1,ASN.1 types and codecs,BSD 2-Clause
+pyasn1-modules,A collection of ASN.1-based protocols modules.,BSD 2-Clause
+pycodestyle,Python style guide checker,MIT
+pycparser,Complete C99 parser in pure Python,BSD-3-clause
+pycrypto,Cryptographic modules for Python.,Public Domain
+pyct,"python package common tasks for users (e.g. copy examples, fetch data, ...)",BSD-3-Clause
+pycurl,A Python Interface To The cURL library,LGPL-2.1-or-later OR MIT
+pydispatcher,Multi-producer-multi-consumer signal dispatching mechanism,BSD-3-Clause
+pydocstyle,Python docstring style checker (formerly pep257),MIT
+pydot,Python interface to Graphviz's Dot,MIT
+pydotplus,Python interface to Graphviz's Dot language,MIT
+pyemd,A Python wrapper for the Earth Mover's Distance.,MIT
+pyerfa,Python bindings for ERFA routines,BSD-3-Clause
+pyflakes,Pyflakes analyzes programs and detects various errors.,MIT
+pygments,"Pygments is a generic syntax highlighter suitable for use in code hosting, forums, wikis or other applications that need to prettify source code.",BSD-2-Clause
+pygpu,Library to manipulate arrays on GPU,ISC
+pyhive,Python interface to Hive,"Apache License, Version 2.0"
+pyjwt,JSON Web Token implementation in Python,MIT
+pykerberos,high-level interface to Kerberos,Apache-2.0
+pylint,python code static checker,GPL-2.0-or-later
+pylint-venv,pylint-venv provides a Pylint init-hook to use the same Pylint installation with different virtual environments.,MIT
+pyls-spyder,Spyder extensions for the python-lsp-server,MIT
+pymc,PyMC: Bayesian Stochastic Modelling in Python,Apache-2.0
+pymongo,Python driver for MongoDB http://www.mongodb.org,Apache-2.0
+pympler,"Development tool to measure, monitor and analyze the memory behavior of Python objects in a running Python application.",Apache-2
+pymssql,DB-API interface to Microsoft SQL Server for Python. (new Cython-based version),LGPL-2.1-only
+pymysql,Pure Python MySQL Driver,MIT
+pyodbc,DB API Module for ODBC,MIT-0
+pyopengl,Standard OpenGL bindings for Python,BSD-like
+pyopenssl,Python wrapper module around the OpenSSL library,Apache-2.0
+pyparsing,Create and execute simple grammars,MIT
+pyprof2calltree,Help visualize profiling data from cProfile with qcachegrind,MIT
+pyproj,Python interface to PROJ library,MIT
+pyqt,Python bindings for the Qt cross platform application toolkit,GPL-3.0-only
+pyqt5-sip,Python bindings for the Qt cross platform application toolkit,GPL-3.0-only
+pyqtgraph,Scientific Graphics and GUI Library for Python,MIT
+pyqtwebengine,Python bindings for the Qt cross platform application toolkit,GPL-3.0-only
+pyquery,A jquery-like library for python,BSD 3-Clause
+pyrsistent,Persistent/Functional/Immutable data structures,MIT
+pysal,Library of spatial analysis functions,BSD-3-Clause
+pyserial,Python serial port access library,BSD-3-Clause
+pyshp,Pure Python read/write support for ESRI Shapefile format,MIT
+pysmi,SNMP SMI/MIB Parser,BSD 2-Clause
+pysnmp,SNMP library for Python,BSD-2-Clause
+pysocks,A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.,BSD 3-Clause
+pyspark,Apache Spark Python API,Apache-2.0
+pytables,"Brings together Python, HDF5 and NumPy to easily handle large amounts of data.",BSD-3-Clause
+pytest,Simple and powerful testing with Python.,MIT
+pytest-arraydiff,pytest plugin to help with comparing array output from tests,BSD
+pytest-astropy,Meta-package containing dependencies for testing Astropy,BSD-3-Clause
+pytest-astropy-header,Pytest plugin to add diagnostic information to the header of the test output,BSD 3-Clause
+pytest-asyncio,Pytest support for asyncio,Apache-2.0
+pytest-cache,pytest plugin with mechanisms for caching across test runs,MIT
+pytest-cov,Pytest plugin for measuring coverage,MIT
+pytest-doctestplus,Pytest plugin with advanced doctest features.,BSD-3-Clause
+pytest-mock,Thin-wrapper around the mock package for easier use with py.test,MIT
+pytest-openfiles,Pytest plugin for detecting inadvertent open file handles,BSD-3-Clause
+pytest-pep8,py.test plugin for efficiently checking PEP8 compliance,MIT
+pytest-remotedata,Pytest plugin for controlling remote data access,BSD
+pytest-runner,Invoke py.test as distutils command with dependency resolution.,MIT
+pytest-timeout,This is a plugin which will terminate tests after a certain timeout.,MIT
+pytest-xdist,py.test xdist plugin for distributed testing and loop-on-failing modes,MIT
+python,General purpose programming language,PSF-2.0
+python-blosc,A Python wrapper for the extremely fast Blosc compression library,BSD-3-Clause
+python-daemon,Library to implement a well-behaved Unix daemon process.,Apache-2.0
+python-dateutil,Extensions to the standard Python datetime module.,BSD-3-Clause and Apache
+python-editor,"Programmatically open an editor, capture the result.",Apache 2.0
+python-engineio,Engine.IO server,MIT
+python-fastjsonschema,Fastest Python implementation of JSON schema,BSD-3-Clause
+python-graphviz,Simple Python interface for Graphviz,MIT
+python-json-logger,A python library adding a json log formatter,BSD-2-Clause
+python-ldap,Python modules for implementing LDAP clients,Python Software Foundation
+python-leveldb,Python bindings for leveldb database library,BSD 3-Clause
+python-lmdb,Universal Python binding for the LMDB 'Lightning' Database,OLDAP-2.8
+python-lsp-black,Black plugin for the Python LSP Server,MIT
+python-lsp-jsonrpc,A Python 3.6+ server implementation of the JSON RPC 2.0 protocol.,MIT
+python-lsp-server,An implementation of the Language Server Protocol for Python,MIT
+python-memcached,Pure python memcached client,PSF 2.0
+python-rapidjson,Python wrapper around rapidjson,MIT
+python-slugify,A Python Slugify application that handles Unicode,MIT
+python-snappy,Python library for the snappy compression library from Google,BSD-3-Clause
+python-socketio,Socket.IO server,MIT
+python-utils,Python Utils is a collection of small Python functions and classes which make common patterns shorter and easier.,BSD-3-Clause
+python-xxhash,Python binding for xxHash,BSD-2-Clause
+pytoolconfig,Python tool configuration,LGPL-3.0-or-later
+pytorch,PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.,BSD-3-Clause
+pytorch-gpu,Metapackage for the GPU PyTorch variant,
+pytz,"World timezone definitions, modern and historical.",MIT
+pyviz_comms,Bidirectional notebook communication for HoloViz libraries,BSD-3-Clause
+pywavelets,Discrete Wavelet Transforms in Python,MIT
+pywget,Pure Python download utility,Public-Domain
+pyxdg,PyXDG contains implementations of freedesktop.org standards in python.,GNU Lesser General Public v2 (LGPLv2)
+pyyaml,YAML parser and emitter for Python,MIT
+pyzmq,Python bindings for zeromq,BSD-3-Clause AND LGPL-3.0-or-later
+qcachegrind,A profiling data visualizer,GPLv2
+qdarkstyle,"A dark stylesheet for Qt applications (Qt4, Qt5, PySide, PyQt4, PyQt5, QtPy, PyQtGraph).",MIT
+qgrid,Pandas DataFrame viewer for Jupyter Notebook,Apache 2.0
+qstylizer,Qt stylesheet generation utility for PyQt/PySide,MIT
+qt-main,Qt is a cross-platform application and UI framework.,LGPL-3.0-only
+qt-webengine,Qt is a cross-platform application and UI framework.,LGPL-3.0-only
+qtawesome,Iconic fonts in PyQt and PySide applications,MIT
+qtconsole,Jupyter Qt Console,BSD-3-Clause
+qtpy,Abstraction layer for PyQt5/PyQt4/PySide,MIT
+qtwebkit,WebKit is one of the major engine to render webpages and execute JavaScript code,LGPL-2.1-only
+quandl,"Source for financial, economic, and alternative datasets.",MIT
+queuelib,Collection of persistent (disk-based) queues,BSD
+rasterio,Rasterio reads and writes geospatial raster datasets,BSD-3-Clause
+re2,"RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.",BSD-3-Clause
+readline,library for editing command lines as they are typed in,GPL-3.0-only
+redis,Advanced key-value cache and store,3-clause BSD
+redis-py,Python client for Redis key-value store,MIT
+regex,"Alternative regular expression module, to replace re",Apache-2.0
+reportlab,The Reportlab Toolkit,BSD-3-Clause
+repoze.lru,A tiny LRU cache implementation and decorator,BSD
+requests,"Requests is an elegant and simple HTTP library for Python, built with ♥.",Apache-2.0
+requests-file,file transport adapter for Requests,Apache
+requests-ftp,An FTP transport adapter for use with the Python Requests library,Apache-2
+requests-kerberos,A Kerberos authentication handler for python-requests,ISC
+responses,A utility library for mocking out the `requests` Python library.,Apache 2.0
+rfc3339-validator,A pure python RFC3339 validator,MIT
+rfc3986-validator,Pure python rfc3986 validator,MIT
+ripgrep,ripgrep recursively searches directories for a regex pattern while respecting your gitignore,MIT AND Unlicense
+rope,A python refactoring library,LGPL-3.0-or-later
+routes,Routing Recognition and Generation Tools,MIT
+rtree,R-Tree spatial index for Python GIS,MIT
+ruamel_yaml,A patched copy of ruamel.yaml.,MIT
+runipy,Run IPython notebooks from the command line,BSD 2-Clause
+s3fs,Convenient Filesystem interface over S3,BSD-3-Clause
+sacremoses,SacreMoses,LGPL-2.1-or-later
+sas7bdat,sas7bdat file reader for Python,MIT
+saspy,A Python interface module to the SAS System,Apache 2.0
+scandir,"scandir, a better directory iterator and faster os.walk()",BSD 3-Clause
+scikit-image,Image processing in Python.,BSD-3-Clause
+scikit-learn,A set of python modules for machine learning and data mining,BSD-3-Clause
+scikit-learn-intelex,Intel(R) Extension for Scikit-learn is a seamless way to speed up your Scikit-learn application.,Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND MIT
+scikit-rf,Object Oriented Microwave Engineering.,BSD-3-Clause
+scipy,Scientific Library for Python,BSD-3-Clause
+scons,Open Source next-generation build tool.,MIT
+scrapy,A high-level Python Screen Scraping framework,BSD-3-Clause
+seaborn,Statistical data visualization,BSD-3-Clause
+secretstorage,Provides a way for securely storing passwords and other secrets.,BSD-3-Clause
+semantic_version,A library implementing the 'SemVer' scheme.,BSD
+send2trash,Python library to natively send files to Trash (or Recycle bin) on all platforms.,BSD-3-Clause
+service_identity,Service identity verification for pyOpenSSL.,MIT
+setuptools,"Download, build, install, upgrade, and uninstall Python packages",MIT
+setuptools_scm,The blessed package to manage your versions by scm tags,MIT
+sh,Python subprocess interface,MIT
+shapely,Python package for manipulation and analysis of geometric objects in the Cartesian plane,BSD-3-Clause
+simplejson,"Simple, fast, extensible JSON encoder/decoder for Python",MIT
+sip,A Python bindings generator for C/C++ libraries,GPL-3.0-only
+six,Python 2 and 3 compatibility utilities,MIT
+smart_open,Python library for efficient streaming of large files,MIT
+smmap2,A pure python implementation of a sliding window memory map manager,BSD 3-Clause
+snakeviz,Web-based viewer for Python profiler output,BSD
+snappy,A fast compressor/decompressor,BSD-3-clause AND CC-BY-3.0 AND MIT AND CC-BY AND Public Domain
+sniffio,Sniff out which async library your code is running under,Apache-2.0
+snowballstemmer,Snowball stemming library collection for Python,BSD-3-Clause
+snuggs,Snuggs are s-expressions for NumPy,MIT
+sockjs-tornado,SockJS python server implementation on top of Tornado framework,MIT
+sortedcontainers,"Python Sorted Container Types: SortedList, SortedDict, and SortedSet",Apache-2.0
+soupsieve,A modern CSS selector implementation for BeautifulSoup,MIT
+spacy,Industrial-strength Natural Language Processing (NLP) in Python,MIT
+sparkmagic,Jupyter magics and kernels for working with remote Spark clusters,BSD-3-Clause
+sphinx,Sphinx is a tool that makes it easy to create intelligent and beautiful documentation,BSD-2-Clause
+sphinx_rtd_theme,Sphinx theme for readthedocs.org,MIT
+sphinxcontrib,Python namespace for sphinxcontrib,BSD
+sphinxcontrib-applehelp,sphinxcontrib-applehelp is a sphinx extension which outputs Apple help books,BSD-2-Clause
+sphinxcontrib-devhelp,sphinxcontrib-devhelp is a sphinx extension which outputs Devhelp document,BSD-2-Clause
+sphinxcontrib-htmlhelp,sphinxcontrib-htmlhelp is a sphinx extension which renders HTML help files.,BSD-2-Clause
+sphinxcontrib-jsmath,A sphinx extension which renders display math in HTML via JavaScript,BSD-2-Clause
+sphinxcontrib-qthelp,sphinxcontrib-qthelp is a sphinx extension which outputs QtHelp document,BSD-2-Clause
+sphinxcontrib-serializinghtml,"sphinxcontrib-serializinghtml is a sphinx extension which outputs ""serialized"" HTML files (json and pickle).",BSD-2-Clause
+sputnik,Sputnik: a data package manager library,MIT
+spyder,The Scientific Python Development Environment,MIT
+spyder-kernels,Jupyter kernels for Spyder's console,MIT
+sqlalchemy,Database Abstraction Library.,MIT
+sqlalchemy-utils,Various utility functions for SQLAlchemy,BSD-3-Clause
+sqlite,"Implements a self-contained, zero-configuration, SQL database engine",blessing
+sqlparse,A non-validating SQL parser module for Python.,BSD-3-Clause
+stack_data,Extract data from python stack frames and tracebacks for informative displays,MIT
+statsmodels,Statistical computations and models for use with SciPy,BSD-3-Clause
+streamz,"Manage streaming data, optionally with Dask and Pandas",BSD-3-Clause
+stripe,Stripe python bindings,MIT
+suds-jurko,Lightweight SOAP client (Jurko's fork).,LGPL-3.0
+svn,Intuitive Subversion wrapper,Apache Software License V.2
+swig,C/C++ parser code generator,GPL 3
+sympy,Python library for symbolic mathematics,BSD-3-Clause AND MIT
+tabpy-client,Python client library to manage Tableau Python Server.,MIT
+tabpy-server,Web server Tableau uses to run Python scripts.,MIT
+tabulate,"Pretty-print tabular data in Python, a library and a command-line utility.",MIT
+tbb,High level abstract threading library,Apache-2.0
+tbb4py,TBB module for Python,Apache-2.0
+tblib,Traceback serialization library.,BSD 2-Clause
+tempita,A small templating language,MIT
+tenacity,Retry a flaky function whenever an exception occurs until it works,Apache-2.0
+tensorflow,TensorFlow is a machine learning library.,Apache-2.0
+tensorflow-base,"TensorFlow is a machine learning library, base package contains only tensorflow.",Apache-2.0
+tensorflow-gpu,Metapackage for selecting a TensorFlow variant.,Apache 2.0
+teradata,Script powerful interactions with Teradata Database,MIT
+termcolor,ANSII Color formatting for output in terminal.,MIT
+terminado,Terminals served by tornado websockets,BSD-2-Clause
+text-unidecode,The most basic Text::Unidecode port,Artistic
+textdistance,TextDistance – python library for comparing distance between two or more sequences by many algorithms.,MIT
+the_silver_searcher,"A code searching tool similar to ack, with a focus on speed.",Apache-2.0
+theano,Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs.,BSD-3-Clause
+threadpoolctl,Python helpers to control the threadpools of native libraries,BSD 3-Clause
+three-merge,Simple Python library to perform a 3-way merge between strings,MIT
+thrift,Python bindings for the Apache Thrift RPC system,Apache-2.0
+thriftpy,Pure python implementation of Apache Thrift.,MIT
+tifffile,Read and write image data from and to TIFF files.,BSD-3-Clause
+tinycss2,Low-level CSS parser for Python,BSD-3-Clause
+tk,A dynamic programming language with GUI support.  Bundles Tcl and Tk.,Tcl/Tk
+tldextract,"Accurately separate the TLD from the registered domain andsubdomains of a URL, using the Public Suffix List.",BSD-3-Clause
+tokenizers,Fast State-of-the-Art Tokenizers optimized for Research and Production,Apache-2.0
+toml,Python lib for TOML.,MIT
+tomlkit,Style preserving TOML library,MIT
+toolz,List processing tools and functional utilities,BSD-3-Clause
+torchvision,Image and video datasets and models for torch deep learning,BSD-3-Clause
+tornado,"A Python web framework and asynchronous networking library, originally developed at FriendFeed.",Apache-2.0
+tornado-json,A simple JSON API framework based on Tornado,MIT
+tqdm,"A Fast, Extensible Progress Meter",MPL-2.0 AND MIT
+traceback2,Backports of the traceback module,PSF 2.0
+traitlets,Configuration system for Python applications,BSD-3-Clause
+traits,traits - explicitly typed attributes for Python,BSD 3-clause
+traitsui,TraitsUI - Traits-capable windowing framework,BSD-3-Clause
+transaction,Transaction management for Python,ZPL 2.1
+transformers,"State-of-the-art Machine Learning for JAX, PyTorch and TensorFlow",Apache-2.0
+translationstring,Utility library for i18n,BSD
+twisted,An asynchronous networking framework written in Python,MIT
+typing,"Type Hints for Python - backport for Python
+    ",None
+typing-extensions,Backported and Experimental Type Hints for Python,PSF-2.0
+typing_extensions,Backported and Experimental Type Hints for Python,PSF-2.0
+tzdata,"The Time Zone Database (called tz, tzdb or zoneinfo)",CC-PDDC OR BSD-3-Clause
+uc-micro-py,Micro subset of unicode data files for linkify-it-py projects.,MIT
+ujson,Ultra fast JSON decoder and encoder written in C with Python bindings,BSD-3-Clause
+unidecode,ASCII transliterations of Unicode text,GPL-2.0-or-later
+unixodbc,ODBC on non MS Windows platforms,LGPL-2.1-or-later
+urllib3,"HTTP library with thread-safe connection pooling, file post, and more.",MIT
+utf8proc,utf8proc is a small C library that provides Unicode utility functions,MIT
+uvloop,Ultra fast implementation of asyncio event loop on top of libuv.,MIT OR Apache-2.0
+vcversioner,Take version numbers from version control.,ISC
+venusian,A library for deferring decorator actions,BSD
+virtualenv,Virtual Python Environment builder,MIT
+vispy,High performance interactive 2D/3D data visualization.,BSD-3-Clause
+visvis,An object oriented approach to visualization of 1D to 4D data,BSD 3-Clause
+w3lib,Library of web-related functions,BSD
+waitress,Production-quality pure-Python WSGI server,ZPL-2.0
+watchdog,Filesystem events monitoring,Apache-2.0
+wcwidth,Measures number of Terminal column cells of wide-character codes.,MIT
+webencodings,Character encoding aliases for legacy web content,BSD 3-Clause
+webob,WSGI request and response object,MIT
+websocket-client,WebSocket client for python. hybi13 is supported.,BSD-3-Clause
+webtest,helper to test WSGI applications,MIT
+werkzeug,The comprehensive WSGI web application library.,BSD-3-Clause
+wget,utility for non-interactive download of files from the Web,GPL-3.0-or-later
+whatthepatch,What The Patch!? is a library for both parsing and applying patch files,MIT
+wheel,A built-package format for Python.,MIT
+whoosh,"Whoosh is a fast, featureful full-text indexing and searching library implemented in pure Python",BSD 2-Clause
+widgetsnbextension,Interactive Widgets for Jupyter,BSD-3-Clause
+word2vec,Python interface to Google word2vec,Apache-2.0
+workerpool,Module for distributing jobs to a pool of worker threads,MIT
+wrapt,"Module for decorators, wrappers and monkey patching",BSD-2-Clause
+ws4py,"WebSocket client and server library for Python 2, 3, and PyPy",BSD 3-Clause
+wsgiproxy2,A WSGI Proxy with various http client backends,MIT
+wtforms,A flexible forms validation and rendering library for Python,BSD-3-Clause
+wurlitzer,Capture C-level stdout/stderr in Python,MIT
+xarray,N-D labeled arrays and datasets in Python.,Apache-2.0
+xerces-c,Xerces-C++ is a validating XML parser written in a portable subset of C++.,Apache-2.0
+xlutils,Utilities for working with Excel files that require both xlrd and xlwt,MIT
+xxhash,Extremely fast hash algorithm,BSD-2-Clause
+xyzservices,Source of XYZ tiles providers,BSD-3-Clause
+xz,Data compression software with high compression ratio,LGPL-2.1-or-later and GPL-2.0-or-later
+y-py,Python bindings for the Rust port of Yjs,MIT
+yaml,A C library for parsing and emitting YAML,MIT
+yapf,A formatter for Python files,Apache 2.0
+yarl,Yet another URL library,Apache-2.0
+ypy-websocket,WebSocket connector for Ypy,MIT
+yt,Analysis and visualization toolkit for volumetric data,BSD-3-Clause
+zeromq,A high-performance asynchronous messaging library.,LGPL-3.0-or-later
+zfp,Library for compressed numerical arrays that support high throughput read and write random access,BSD-3-Clause
+zict,Composable Dictionary Classes,BSD-3-Clause
+zipp,A pathlib-compatible Zipfile object wrapper,MIT
+zlib,Massively spiffy yet delicately unobtrusive compression library,Zlib
+zlib-ng,zlib data compression library for the next generation systems,Zlib
+zope,web application server,BSD
+zope.deprecation,Zope Deprecation Infrastructure,ZPL 2.1
+zope.interface,Interfaces for Python,ZPL-2.1
+zope.sqlalchemy,Minimal Zope/SQLAlchemy transaction integration,ZPL-2.1
+zstd,Zstandard - Fast real-time compression algorithm,BSD-3-Clause AND GPL-2.0-or-later

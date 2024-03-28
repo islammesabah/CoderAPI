@@ -1,0 +1,17 @@
+[
+    {
+        "instruction": "Create a Python program that utilizes the \"langchain\" API to generate a prompt template that take to inputs adjective and content to till the model to generate a joke about the content with the given adjective. Then invoke the template with the inputs \"funny\" and \"AI\" to generate a joke about AI.",
+        "api": "langchain", 
+        "output": "#!pip install langchain\n# Import necessary libraries\nfrom langchain.prompts import PromptTemplate\n\n# define the template\nprompt_template = PromptTemplate(\n    input_variables=[\"adjective\", \"content\"],\n    template = \"Tell me a {adjective} joke about {content}.\"\n)\n\n# can also use invoke syntax (applied to following examples as well)\nprompt_value = prompt_template.invoke({\"adjective\": \"funny\", \"content\": \"AI\"})\nprint(prompt_value)"
+    },
+    {
+        "instruction": "Create a Python program that utilizes the \"langchain\" API to load the text from the Wikipedia page on Germany and print the first 1000 characters of the page content.",
+        "api": "langchain", 
+        "output": "#!pip install langchain\n# Import necessary libraries\nfrom langchain.document_loaders import WebBaseLoader\n\n# Declare the loader\nloader = WebBaseLoader(\n    web_paths=(\"https://en.wikipedia.org/wiki/Germany\",),\n)\n# Use it to load the text data\ndocs = loader.load()\n\n# Let's look at a piece of text from the first document\ndocs[0].page_content[:1000]"
+    },
+    {
+        "instruction": "Create a Python program that utilizes the \"langchain\" API to load the text from the Wikipedia page on the Sinai Peninsula and split the text into chunks of 1000 characters with an overlap of 200 characters using Recursive Character Text Splitter.",
+        "api": "langchain", 
+        "output": "#!pip install langchain\n# Import necessary libraries\nfrom langchain.text_splitter import RecursiveCharacterTextSplitter\nfrom langchain.document_loaders import WebBaseLoader\n\n# Declare the loader\nloader = WebBaseLoader(\n    web_paths=(\"https://en.wikipedia.org/wiki/Sinai_Peninsula\",),\n)\n# Use it to load the text data\ndocs = loader.load()\n\n# Declare the loader\ntext_splitter = RecursiveCharacterTextSplitter(\n    chunk_size=1000,\n    chunk_overlap=200,\n    add_start_index=True\n)\n\n# Use it to split the data\nall_splits = text_splitter.split_documents(docs)"
+    }
+]

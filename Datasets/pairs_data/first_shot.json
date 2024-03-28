@@ -1,0 +1,492 @@
+[
+    {
+        "name": "mlflow",
+        "instruct": "Create a program that uses the MLflow API to train a simple decision tree classifier on the Iris dataset. Log the model, its hyperparameters, and accuracy as a metric. Save the model as an artifact.",
+        "code": "code/mlflow.py",
+        "test": [
+            "-- Test if the Decision Tree model is correctly trained.",
+            "-- Test if hyperparameters 'criterion' and 'max_depth' are logged correctly.",
+            "-- Test if the accuracy metric is logged correctly."
+        ]
+    },
+    {
+        "name": "PyDrive2",
+        "instruct": "Create a Python program that lists all files in a specified folder on Google Drive using the PyDrive2 API. The program should take the folder's ID as input and display a list of file names along with their corresponding IDs. Make sure the program is capable of handling cases where the folder ID provided does not exist or when there is an authentication issue.",
+        "code": "code/pydrive2.py",
+        "test": [
+            "-- Test if the program handles the case when the folder with the provided ID does not exist on Google Drive.",
+            "-- Test if the program handles authentication errors correctly.",
+            "-- Test if the program lists files in the specified folder along with their IDs."
+        ]
+    },
+    {
+        "name": "pytensor",
+        "instruct": "Create a Python program that uses the 'pytensor' API to perform matrix multiplication and matrix addition operations on two given matrices. Ensure that your program handles matrix dimensions appropriately and provides meaningful error messages for invalid inputs.",
+        "code": "code/pytensor.py",
+        "test": [
+            "-- Test matrix multiplication with valid inputs:\n* Inputs: matrix_a and matrix_b (valid matrices)\n* Expected Output: The result of matrix multiplication.",
+            "-- Test matrix multiplication with invalid inputs:\n* Inputs: matrix_a and a non-matrix object\n* Expected Output: An error message indicating invalid input.",
+            "-- Test matrix addition with matrices of different dimensions:\n* Inputs: matrix_a (2x2) and a different-sized matrix (3x3)\n* Expected Output: An error message indicating incompatible dimensions for addition."
+        ]
+    },
+    {
+        "name": "ydata-profiling",
+        "instruct": "Create a Python program that uses the \"ydata-profiling\" API to perform data profiling on a CSV file named \"data.csv.\" The profiling should include statistics like mean, median, and histograms for numeric columns. Save the profiling report as an HTML file named \"data_profile.html.\"",
+        "code": "code/ydata-profiling.py",
+        "test": [
+            "-- Test that the \"data.csv\" file is successfully loaded into a Pandas DataFrame.",
+            "-- Verify that the profiling report contains statistics such as mean and median.",
+            "-- Check if the \"data_profile.html\" file is created after running the program."
+        ]
+    },
+    {
+        "name": "langchain",
+        "instruct": "Create a Python program that utilizes the \"langchain\" API to interact with the GPT-3.5 Turbo model. Define a chat prompt template that includes a variable {country}. Use this template to inquire about the capital of a specific country, e.g., \"What is the capital of {country}?\" Replace {country} with \"Germany\" and retrieve the model's response. Save the response.",
+        "code": "code/langchain.py",
+        "test": [
+            "-- Test that the \"langchain\" library is successfully installed.",
+            "--Verify that the program retrieves a response from the GPT-3.5 Turbo model.",
+            "--Check if the response contains information about the capital of the specified country."
+        ]
+    },
+    {
+        "name": "diffusers",
+        "instruct": "Write a Python program that utilizes the 'diffusers' API to generate an image based on the provided prompt, 'a photo of an astronaut riding a horse on the moon.'",
+        "code": "code/diffusers.py",
+        "test": [
+            "-- Test whether the code successfully generates an image based on the provided prompt.",
+            "-- Test the execution time of the code to ensure it's within reasonable limits.",
+            "-- Verify that the saved image (\"astronaut_rides_horse.png\") exists and can be opened."
+        ]
+    },
+    {
+        "name": "evaluate",
+        "instruct": "Create a Python program that uses the 'evaluate' API to perform sentiment analysis on a dataset. The program should load the IMDb dataset, shuffle it, select the first 1000 examples, and then use the 'lvwerra/distilbert-imdb' model to classify the text as either 'NEGATIVE' or 'POSITIVE.' The results should be printed.",
+        "code": "code/evaluate.py",
+        "test": [
+            "-- Test that the IMDb dataset is loaded correctly and contains 1000 examples.",
+            "-- Test that the 'lvwerra/distilbert-imdb' model is successfully used for text classification.",
+            "-- Test that the 'eval_results' variable contains the expected sentiment analysis results for the selected dataset."
+        ]
+    },
+    {
+        "name": "argilla",
+        "instruct": "Create a Python program using 'argilla' API to train NER model on CoNLL-2003 data, selecting 100 examples, using 'ArgillaTrainer' with 'spacy,' predict named entities in 'The ArgillaTrainer is great!' and log results.",
+        "code": "code/argilla.py",
+        "test": [
+            "-- Test that the 'conll2003' dataset is loaded correctly and contains the expected number of training examples (100).",
+            "-- Test that the 'ArgillaTrainer' is initialized and configured with the specified parameters.",
+            "-- Test that the NER model is successfully trained, and the predictions for the sample sentence match the expected results."
+        ]
+    },
+    {
+        "name": "llama-index",
+        "instruct": "Develop a Python program with 'llama-index' to query 'https://en.wikipedia.org/wiki/Ahmed_Zewail' using 'TrafilaturaWebReader,' create 'GPTListIndex,' and answer two questions: Zewail's awards and publications. Print responses.",
+        "code": "code/llama-index.py",
+        "test": [
+            "-- Test that the 'TrafilaturaWebReader' correctly loads and processes the content from the specified website.",
+            "-- Test that the 'GPTListIndex' is created and functions as expected to index the webpage content.",
+            "-- Test that the program can accurately answer the provided questions based on the indexed data from the webpage."
+        ]
+    },
+    {
+        "name": "peft",
+        "instruct": "Develop a Python program using the 'peft' API that assesses the sentiment of a provided news snippet. Load the necessary models, including 'THUDM/chatglm2-6b' as the base model and 'oliverwang15/FinGPT_ChatGLM2_Sentiment_Instruction_LoRA_FT' as the peft model. Create a prompt that instructs the model to determine the sentiment of the news snippet, which should be provided as input. The program should generate the sentiment result and print it.",
+        "code": "code/peft.py",
+        "test": [
+            "-- Test that the base model ('THUDM/chatglm2-6b') and sentiment model ('oliverwang15/FinGPT_ChatGLM2_Sentiment_Instruction_LoRA_FT') are loaded successfully.",
+            "-- Test that the program can generate sentiment results for the provided news snippet.",
+            "-- Test that the program correctly handles different news snippets and returns the corresponding sentiment."
+        ]
+    },
+    {
+        "name": "rustworkx",
+        "instruct": "Create a Python program using the 'rustworkx' API to define a directed graph and find the shortest path between two nodes. Initialize an empty graph and add nodes 'A,' 'B,' 'C,' and 'D' to it. Establish weighted edges between these nodes and print the indices of the added edges. Then, use Dijkstra's shortest path algorithm to find and print the shortest path from node 'A' to node 'C'",
+        "code": "code/rustworkx.py",
+        "test": [
+            "-- Test that the program correctly creates nodes and edges in the graph.",
+            "-- Test that the indices of the added edges are printed as expected.",
+            "-- Test that the program accurately finds and prints the shortest path from node 'A' to node 'C' using Dijkstra's algorithm."
+        ]
+    },
+    {
+        "name": "pyglove",
+        "instruct": "Create a Python program using the 'pyglove' API to perform hyperparameter tuning for a neural network model on the MNIST dataset. The program should download and preprocess the MNIST dataset, define a neural network architecture with different hyperparameters (including units, activation functions, and convolutional layers), and tune these hyperparameters to maximize accuracy. The program should output the top 10 results, including trial ID, test accuracy, and hyperparameters.",
+        "code": "code/pyglove.py",
+        "test": [
+            "-- Test that the program can successfully download and preprocess the MNIST dataset.",
+            "-- Test that it correctly defines and trains neural network models with different hyperparameters.",
+            "-- Test that the program outputs the top 10 results with trial IDs, test accuracy, and hyperparameters."
+        ]
+    },
+    {
+        "name": "supervision",
+        "instruct": "Develop a Python program that utilizes the 'supervision' API for object detection using a YOLO model on a webcam feed. Annotate detected objects with labels and draw a red polygon zone on the video frame. Use the Ultralytics YOLO model for object detection.",
+        "code": "code/supervision.py",
+        "test": [
+            "-- Ensure the program captures the webcam feed and performs object detection.",
+            "-- Verify that detected objects are annotated with labels on the video feed.",
+            "-- Ensure that the red polygon zone is correctly displayed on the video frame."
+        ]
+    },
+    {
+        "name": "linear-operator",
+        "instruct": "Create a Python program that utilizes the 'linear-operator' API to compute the eigenvalues and eigenvectors of a given square matrix. The program should print the computed eigenvalues and eigenvectors.",
+        "code": "code/linear-operator.py",
+        "test": [
+            "-- Ensure the program correctly computes the eigenvalues of the input square matrix.",
+            "-- Verify that the program accurately computes the eigenvectors of the input matrix.",
+            "-- Confirm that the program correctly prints the computed eigenvalues and eigenvectors."
+        ]
+    },
+    {
+        "name": "mmengine",
+        "instruct": "Develop a Python program using the 'mmengine' API to create a custom dataset class for the MNIST dataset. The program should include data loading and preprocessing. Ensure that the dataset can be used for training and testing purposes.",
+        "code": "code/mmengine.py",
+        "test": [
+            "-- Ensure that the program can download the MNIST dataset and split it into training and testing sets.",
+            "-- Verify that the dataset class preprocesses the data appropriately for training and testing.",
+            "-- Confirm that the dataset can be used effectively for machine learning tasks."
+        ]
+    },
+    {
+        "name": "apeye",
+        "instruct": "Develop a Python program that utilizes the 'apeye' API to interact with a given URL. The program should extract and print the path, domain, and fully qualified domain name (FQDN) information from the URL.",
+        "code": "code/apeye.py",
+        "test": [
+            "-- Ensure that the program correctly extracts and prints the path from the URL.",
+            "-- Verify that the program accurately extracts and prints the domain information.",
+            "-- Confirm that the program correctly extracts and prints the fully qualified domain name (FQDN) from the URL."
+        ]
+    },
+    {
+        "name": "bitstring",
+        "instruct": "Create a Python program using the 'bitstring' API to perform a prime number check for a given integer and determine if it's an emirp (a prime number whose reverse is also a prime). The program should print whether the input number is prime, emirp, or not prime.",
+        "code": "code/bitstring.py",
+        "test": [
+            "-- Ensure that the program correctly identifies prime numbers and emirps.",
+            "-- Verify that the program accurately determines non-prime numbers.",
+            "-- Confirm that the program handles various input numbers and produces the correct output."
+        ]
+    },
+    {
+        "name": "datacompy",
+        "instruct": "Develop a Python program that utilizes the 'datacompy' API to compare two dataframes for data matching. The program should load two dataframes, compare them based on the 'employee_id' column, and produce a comparison report. Ensure that it reports matches and does not ignore extra columns.",
+        "code": "code/datacompy.py",
+        "test": [
+            "-- Ensure that the program correctly compares two dataframes for data matching.",
+            "-- Verify that the program produces a comparison report.",
+            "-- Confirm that the program does not ignore extra columns during comparison."
+        ]
+    },
+    {
+        "name": "emoji",
+        "instruct": "Create a Python program that uses the 'emoji' API to flip emojis within a text. The program should identify emojis and convert them to their text representation and vice versa. Run the program on a list of sample texts containing emojis.",
+        "code": "code/emoji.py",
+        "test": [
+            "-- Ensure that the program correctly identifies and converts emojis within the text.",
+            "-- Verify that the program accurately converts emoji text representations back to emojis.",
+            "-- Confirm that the program handles texts without emojis without errors."
+        ]
+    },
+    {
+        "name": "chardet",
+        "instruct": "Develop a Python program that uses the 'chardet' API to detect the encoding of a given text. The program should encode the text in ASCII and use the detector to identify the encoding. Print the result of the encoding detection.",
+        "code": "code/chardet.py",
+        "test": [
+            "-- Ensure that the program accurately detects the encoding of the provided text.",
+            "-- Verify that the program correctly encodes the text in ASCII.",
+            "-- Confirm that the program provides the correct encoding result."
+        ]
+    },
+    {
+        "name": "click",
+        "instruct": "Create a Python program using the 'click' API to build a command-line tool. The program should accept two input options: 'divider' and 'divisor'. It should then calculate the result of dividing 'divider' by 'divisor' and print the result.",
+        "code": "code/click.py",
+        "test": [
+            "-- Enter '10' as the divider and '2' as the divisor. Ensure that the program correctly calculates and prints 'The Result: 5.0'.",
+            "-- Enter '20' as the divider and '4' as the divisor. Confirm that the program accurately calculates and prints 'The Result: 5.0'.",
+            "-- Enter '15' as the divider and '3' as the divisor. Verify that the program computes and prints 'The Result: 5.0'."
+        ]
+    },
+    {
+        "name": "category-encoders",
+        "instruct": "Create a Python program using the 'category-encoders' API to demonstrate category encoding. The program should encode categorical data using binary encoding and print the resulting data frame.",
+        "code": "code/category-encoders.py",
+        "test": [
+            "-- Verify that the program correctly encodes the categorical data in the 'OUTLOOK' and 'TEMPERATURE' columns using binary encoding and displays the transformed data frame.",
+            "-- Test with a different set of categorical data to ensure the program can handle various inputs and still perform binary encoding accurately.",
+            "-- Test the program's ability to handle larger datasets with more categorical columns to validate its scalability and encoding accuracy."
+        ]
+    },
+    {
+        "name": "scipy",
+        "instruct": "Create a Python program using the 'scipy' API to apply various image transformations to a sample image. The program should perform operations like shifting and rotating the image and display the original and transformed images.",
+        "code": "code/scipy.py",
+        "test": [
+            "-- Ensure that the program correctly applies the specified image transformations (shifting and rotating) to the sample image and displays the images side by side.",
+            "-- Test the program with different shift and rotation parameters to validate its flexibility in handling various transformation scenarios.",
+            "-- Verify that the program can display the original and transformed images using matplotlib."
+        ]
+    },
+    {
+        "name": "xarray",
+        "instruct": "Create a Python program using the 'xarray' API to generate a time series data array. The program should define a time range for multiple years and months and create a data array with the corresponding time coordinates.",
+        "code": "code/xarray.py",
+        "test": [
+            "-- Ensure that the program correctly generates the time series data array with the specified time coordinates.",
+            "-- Test the program with different time ranges and verify that it handles various combinations of years and months correctly.",
+            "-- Validate that the generated time series data array is named 'data_time' and has the expected dimensions and coordinates."
+        ]
+    },
+    {
+        "name": "gymnasium",
+        "instruct": "Develop a Python program using the 'gymnasium' API to play the 'CarRacing-v2' environment. The program should control a car within the environment using keyboard inputs (W, A, S, D) to accelerate, turn left, reverse, and turn right, respectively.",
+        "code": "code/gymnasium.py",
+        "test": [
+            "-- Ensure that the program successfully creates and runs the 'CarRacing-v2' environment from the 'gymnasium' API.",
+            "-- Validate that the program interprets the keyboard inputs correctly and controls the car within the environment as expected.",
+            "-- Test the program with different keyboard inputs and verify that the car's movements are responsive and accurate."
+        ]
+    },
+    {
+        "name": "datasets",
+        "instruct": "Develop a Python program using the 'datasets' API to load the IMDb dataset and process it with a BERT tokenizer from the 'transformers' API. The program should tokenize both the training and testing data from the IMDb dataset using the BERT tokenizer and print the processed data.",
+        "code": "code/datasets.py",
+        "test": [
+            "-- Confirm that the program successfully loads the IMDb dataset and retrieves the training and testing splits.",
+            "-- Validate that the program effectively tokenizes the text data using the BERT tokenizer, ensuring that padding and truncation are applied correctly.",
+            "-- Check that the processed training and testing data is correctly printed and ready for use in natural language processing tasks."
+        ]
+    },
+    {
+        "name": "hypothesis",
+        "instruct": "Develop a Python program using the 'hypothesis' API to create and test a hypothetical function. The program should utilize 'hypothesis' to generate test cases for a function that simulates creating a goal in a hypothetical 'waspfinder' application. This function should take goal data as input and make a POST request to a test API. The 'hypothesis' library will be used to generate various goal data parameters and verify the behavior of the function.",
+        "code": "code/hypothesis.py",
+        "test": [
+            "-- Test that the program successfully generates and tests hypothetical goal data for the 'create_goal_dry_run' function.",
+            "-- Validate that the 'create_goal_dry_run' function behaves correctly when making a POST request with generated goal data.",
+            "-- Ensure that the 'create_goal_dry_run' function handles various data types and edge cases when interacting with the test API."
+        ]
+    },
+    {
+        "name": "ibis-framework",
+        "instruct": "Create a Python program using the 'ibis-framework' API to work with data tables and schemas. The program should define a sample data table using a Pandas DataFrame and convert it to an 'ibis' table. You need to interact with the 'ibis-framework' library to load the data, define a schema, and display the table and its schema.",
+        "code": "code/ibis-framework.py",
+        "test": [
+            "-- Verify that the program successfully converts a Pandas DataFrame into an 'ibis' table.",
+            "-- Check if the program correctly displays the 'ibis' data table and its schema.",
+            "-- Ensure that the 'ibis-framework' API operations and interactions within the program are functioning as expected."
+        ]
+    },
+    {
+        "name": "json-tricks",
+        "instruct": "Create a Python program using the 'json-tricks' API to demonstrate custom JSON encoding. In the program, define a custom class and implement a 'json_encode' method that returns a dictionary with specific attributes to be included in the JSON representation. Use the 'dumps' function from 'json-tricks' to serialize the custom class object into a JSON string with custom encoding.",
+        "code": "code/json-tricks.py",
+        "test": [
+            "-- Verify that the program successfully encodes the custom class object into a JSON string with the specified attributes.",
+            "-- Check if the JSON string representation contains only the relevant attributes as defined in the 'json_encode' method.",
+            "-- Ensure that the 'json-tricks' API for custom JSON encoding is functioning as expected within the program."
+        ]
+    },
+    {
+        "name": "pytorch-lightning",
+        "instruct": "Create a Python program using the 'pytorch-lightning' API to define a 'DataModule' class that prepares and tokenizes data for a natural language processing task. The 'DataModule' should load a dataset using the 'datasets' and 'transformers' libraries, tokenize the data with a specific model tokenizer, and set up data loaders. The program should demonstrate the use of 'pytorch-lightning' to create a 'DataModule' instance, prepare data, set it up, and print the shape of a batch from the data loader.",
+        "code": "code/pytorch-lightning.py",
+        "test": [
+            "-- Check if the program successfully creates an instance of the 'DataModule' class.",
+            "-- Verify that the 'prepare_data' method correctly loads the dataset and the 'setup' method tokenizes and sets up the data for training and validation.",
+            "-- Ensure that the program prints the shape of a batch from the data loader without errors, indicating correct data preparation and loading."
+        ]
+    },
+    {
+        "name": "rapidfuzz",
+        "instruct": "Create a Python program using the 'rapidfuzz' API to demonstrate fuzzy string matching. The program should take a query string and compare it to a list of target strings using the 'fuzz.ratio' scorer from 'rapidfuzz'. Print the query string and the similarity score for each target string. The goal is to find similar strings in the list based on the ratio similarity score.",
+        "code": "code/rapidfuzz.py",
+        "test": [
+            "-- Test if the program correctly calculates and prints the similarity scores for the query string compared to the list of target strings using the 'fuzz.ratio' scorer.",
+            "-- Verify that the program prints the query string and the similarity scores without errors.",
+            "-- Ensure that the program finds the most similar target string(s) based on the ratio similarity score."
+        ]
+    },
+    {
+        "name": "more-itertools",
+        "instruct": "Create a Python program using the 'more-itertools' API to demonstrate grouping and transforming pairs of integers. The program should take a list of integers, group them into pairs, and then double each integer in the pair. Finally, calculate the sum of the transformed pairs and print the grouped pairs and the sum square.",
+        "code": "code/more-itertools.py",
+        "test": [
+            "-- Test if the program correctly groups the list of integers into pairs using 'grouper' from 'more-itertools'.",
+            "-- Verify that the program doubles each integer in the pairs correctly and stores the transformed pairs.",
+            "-- Ensure that the program calculates and prints the sum of the transformed pairs without errors."
+        ]
+    },
+    {
+        "name": "optuna",
+        "instruct": "Create a Python program using the 'optuna' API for hyperparameter optimization. The program should optimize the hyperparameters of a Support Vector Machine (SVM) model for classifying the Iris dataset. It should search for the best combination of 'kernel' and 'C' hyperparameters and print the best hyperparameters and the corresponding accuracy.",
+        "code": "code/optuna.py",
+        "test": [
+            "-- Test if the program correctly loads the Iris dataset and splits it into training and testing sets.",
+            "-- Verify that the program performs hyperparameter optimization using 'optuna' and returns the best hyperparameters and their accuracy.",
+            "-- Ensure that the program prints the best hyperparameters and accuracy without errors."
+        ]
+    },
+    {
+        "name": "plotly",
+        "instruct": "Create a Python program using the 'plotly' API to generate an interactive line chart. The program should define data points for the x and y axes, create the chart, customize the chart title, X-axis label, and Y-axis label. Finally, save the chart as an HTML file and display it on the screen.",
+        "code": "code/plotly.py",
+        "test": [
+            "-- Test if the program correctly defines data points for the x and y axes.",
+            "-- Verify that the program creates an interactive line chart with the specified title, X-axis label, and Y-axis label.",
+            "-- Ensure that the program saves the chart as an HTML file and displays it on the screen without errors."
+        ]
+    },
+    {
+        "name": "polars",
+        "instruct": "Create a Python program using the 'polars' API to load a sample CSV file into a Polars DataFrame, filter rows where the 'age' column is greater than 25, select specific columns ('name', 'city', 'age'), and aggregate data by grouping it by the 'city' column and calculating the sum of 'age'. Finally, display the resulting DataFrame.",
+        "code": "code/polars.py",
+        "test": [
+            "-- Test if the program successfully loads the sample CSV file into a Polars DataFrame.",
+            "-- Verify that the program filters rows based on the 'age' column correctly.",
+            "-- Ensure that the program selects the specified columns and aggregates data by grouping it by 'city' while calculating the total age."
+        ]
+    },
+    {
+        "name": "Pygments",
+        "instruct": "Create a Python program using the 'Pygments' API to apply syntax highlighting to a code snippet and save the highlighted code as an HTML file.",
+        "code": "code/Pygments.py",
+        "test": [
+            "-- Test if the program successfully applies syntax highlighting to the code snippet using the Python lexer.",
+            "-- Verify that the generated HTML file contains the highlighted code.",
+            "-- Check that the HTML file is saved correctly with the highlighted code."
+        ]
+    },
+    {
+        "name": "pypdf",
+        "instruct": "Create a Python program using the 'pypdf' API to extract text content from a PDF file and save it to a text file.",
+        "code": "code/pypdf.py",
+        "test": [
+            "-- Test if the program successfully extracts text from the specified PDF file.",
+            "-- Verify that the extracted text matches the content of the PDF file.",
+            "-- Check that the extracted text is correctly saved to the output text file."
+        ]
+    },
+    {
+        "name": "holidays",
+        "instruct": "Create a Python program using the 'holidays' API to check if a specified date is a public holiday in a given country or region.",
+        "code": "code/holidays.py",
+        "test": [
+            "-- Test if the program correctly identifies a known public holiday in the specified country or region.",
+            "-- Verify that the program accurately identifies a date that is not a public holiday in the specified country or region.",
+            "-- Check the program's behavior when using an invalid date or an unsupported country code."
+        ]
+    },
+    {
+        "name": "jsonschema",
+        "instruct": "Create a Python program using the 'jsonschema' API to validate a JSON object against a predefined JSON schema with specific structure and constraints.",
+        "code": "code/jsonschema.py",
+        "test": [
+            "-- Test the program with a valid JSON object that meets the schema requirements.",
+            "-- Verify the program's behavior when the JSON object does not conform to the schema, ensuring it correctly identifies validation errors.",
+            "-- Check the program's handling of different schema constraints (e.g., data types, minimum values) and how it reports errors."
+        ]
+    },
+    {
+        "name": "validators",
+        "instruct": "Create a Python program using the 'validators' API to validate user-provided email addresses, checking if they adhere to the standard email format.",
+        "code": "code/validators.py",
+        "test": [
+            "-- Test the program with valid email addresses to ensure it correctly identifies them as valid.",
+            "-- Verify the program's behavior when invalid email addresses are provided, ensuring it properly identifies them as invalid.",
+            "-- Test the program with various valid and invalid email formats to assess its robustness and accuracy in validation."
+        ]
+    },
+    {
+        "name": "rich",
+        "instruct": "Create a Python program using the 'rich' API to display a well-formatted table of product inventory data. The table should have columns for product names, prices, and quantities.",
+        "code": "code/rich.py",
+        "test": [
+            "-- Test the program with various sets of product data to ensure it correctly displays the table with proper formatting and alignment.",
+            "-- Verify the program's behavior with empty or incomplete data to assess its robustness in handling different scenarios.",
+            "-- Test the table rendering performance with a large dataset to ensure it remains responsive and efficient."
+        ]
+    },
+    {
+        "name": "spacy",
+        "instruct": "Create a Python program using the 'spacy' API to analyze text and label its sentiment based on the presence of positive and negative emoji. The program should identify and label positive and negative sentiments in a text.",
+        "code": "code/spacy.py",
+        "test": [
+            "-- Test the program with various input texts containing positive and negative emoji to ensure it correctly identifies and labels the sentiment.",
+            "-- Verify the program's behavior with text that does not contain any emoji to assess its robustness in handling different scenarios.",
+            "-- Test the program's performance with long texts to ensure it remains responsive and efficient."
+        ]
+    },
+    {
+        "name": "stumpy",
+        "instruct": "Develop a Python program using the 'stumpy' API to generate a matrix profile for a given random time series data. The program should compute the e z-normalized matrix profile, and the resulting profile should be saved to a text file.",
+        "code": "code/stumpy.py",
+        "test": [
+            "-- Test the program with different random time series data to verify that it correctly computes the matrix profile.",
+            "-- Assess the program's performance with larger time series data to ensure it remains efficient.",
+            "-- Examine the generated output files to confirm that the matrix profile is saved accurately and can be used for further analysis."
+        ]
+    },
+    {
+        "name": "pymc",
+        "instruct": "Create a Python program using the 'pymc' API to perform Bayesian linear regression on a dataset. The program should define prior distributions for the model's parameters, including the intercept and slope, and use a likelihood function to model the observed data. After setting up the model, perform Bayesian inference to draw posterior samples using NUTS sampling.",
+        "code": "code/pymc.py",
+        "test": [
+            "-- Test the program with different datasets to ensure it correctly performs Bayesian linear regression.",
+            "-- Validate the program's results by comparing the posterior samples and summary statistics to expected values.",
+            "-- Assess the program's performance with larger datasets to ensure it remains efficient and accurate."
+        ]
+    },
+    {
+        "name": "SQLAlchemy",
+        "instruct": "Create a Python program that uses the 'SQLAlchemy' API to interact with a SQLite database. The program should define an 'User' entity with attributes like 'id,' 'name,' and 'email.' It should set up the database connection, create the 'users' table, add a new user to the table, and retrieve user data from the database.",
+        "code": "code/SQLAlchemy.py",
+        "test": [
+            "-- Test the program by adding multiple users with different names and emails to the database and then retrieving their data to ensure it works correctly.",
+            "-- Verify the program's error-handling capabilities by attempting to add a user with invalid data and check if it raises appropriate exceptions.",
+            "-- Evaluate the program's performance with a large number of user records to ensure it remains efficient."
+        ]
+    },
+    {
+        "name": "tensorflow",
+        "instruct": "Create a Python program that uses the 'tensorflow' API to build a simple feedforward neural network for binary classification. The program should generate synthetic data, compile the model, train it on the data, and evaluate its performance.",
+        "code": "code/tensorflow.py",
+        "test": [
+            "-- Test the program by training the model on different synthetic datasets and verifying that it achieves reasonable accuracy.",
+            "-- Test the program's evaluation step by calculating the loss and accuracy on a separate set of synthetic data.",
+            "-- Verify that the model's predictions fall within the range [0, 1] by checking if 'np.all(predictions >= 0) and np.all(predictions <= 1)' is True."
+        ]
+    },
+    {
+        "name": "numpy",
+        "instruct": "Create a Python program that uses the 'numpy' API to perform matrix operations, including generating a random matrix, computing its transpose, and calculating the matrix product.",
+        "code": "code/numpy.py",
+        "test": [
+            "-- Test the program with matrices of different sizes and verify that the transpose operation correctly swaps rows and columns.",
+            "-- Verify the correctness of the matrix product by comparing it to a manual calculation for smaller matrices.",
+            "-- Test the program's performance by generating and processing large matrices."
+        ]
+    },
+    {
+        "name": "scikit-learn",
+        "instruct": "Create a Python program that uses the 'scikit-learn' API to load the Iris dataset, split it into training and testing sets, train a K-Nearest Neighbors classifier, make predictions, calculate accuracy, and save the trained model.",
+        "code": "code/scikit-learn.py",
+        "test": [
+            "-- Test the program with different random states for dataset splitting to ensure consistency in accuracy calculations.",
+            "-- Load the saved model and validate its correctness by making predictions on a test dataset and comparing the results.",
+            "-- Measure and record the time taken to train the model on a larger dataset for performance testing."
+        ]
+    },
+    {
+        "name": "pandas",
+        "instruct": "Create a Python program that uses the 'pandas' API to read a JSON file containing sales data, calculate total sales revenue for each product, identify the product with the highest revenue, and create a summary DataFrame.",
+        "code": "code/pandas.py",
+        "test": [
+            "-- Test the program with different sales data files, including edge cases with missing or incomplete data, to ensure robustness.",
+            "-- Check the performance of the program with a large sales data file and record the execution time for performance testing.",
+            "-- Implement unit tests to verify the correctness of total sales revenue calculations and the identification of the highest revenue product."
+        ]
+    }
+]

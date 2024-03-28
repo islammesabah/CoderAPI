@@ -1,0 +1,53 @@
+==============================================================================
+================== Prompt Engineering ========================================
+==============================================================================
+File Path: ./cache_data/exp/instructions_general_prompt
+100%|█████████████████████████████████████████████████| 127/127 [2:06:07<00:00, 59.59s/it]
+File Path: ./cache_data/exp/instructions_general_prompt_no_decoder_inp
+100%|█████████████████████████████████████████████████| 127/127 [9:23:07<00:00, 266.05s/it]
+File Path: ./cache_data/exp/instructions_code_prompt
+100%|█████████████████████████████████████████████████| 127/127 [1:52:05<00:00, 52.96s/it]
+File Path: ./cache_data/exp/instructions_code_prompt_no_decoder_inp
+100%|█████████████████████████████████████████████████| 127/127 [9:57:36<00:00, 282.34s/it]
+File Path: ./cache_data/exp/instructions_docu_code_prompt
+100%|█████████████████████████████████████████████████| 127/127 [11:41:17<00:00, 331.32s/it]
+File Path: ./cache_data/exp/instructions_docu_code_prompt_no_decoder_inp
+100%|█████████████████████████████████████████████████| 127/127 [6:08:40<00:00, 174.17s/it]
+File Path: ./cache_data/exp/instructions_general_prompt_docu_encoder_inp
+100%|█████████████████████████████████████████████████| 127/127 [4:26:51<00:00, 126.08s/it]
+File Path: ./cache_data/exp/instructions_code_prompt_docu_encoder_inp
+100%|█████████████████████████████████████████████████| 127/127 [4:07:20<00:00, 116.86s/it]
+File Path: ./cache_data/exp/instructions_docu_code_prompt_docu_encoder_inp
+100%|█████████████████████████████████████████████████| 127/127 [14:01:42<00:00, 397.65s/it]
+
+
+==============================================================================
+================== Fine Tuning ===============================================
+==============================================================================
+File Path: ./cache_data/exp/instructions_general_prompt
+Model Path:  ../Training/saved_models/exp/saved_M1_instruct_codet5p_16b_100epochs_fp16_general_prompt/final_checkpoint_ser
+100%|█████████████████████████████████████████████████| 127/127 [2:28:09<00:00, 69.99s/it]
+File Path: ./cache_data/exp/instructions_general_prompt_no_decoder_inp
+Model Path:  ../Training/saved_models/exp/saved_M2_instruct_codet5p_16b_100epochs_fp16_general_prompt_no_decoder_inp/final_checkpoint_ser
+100%|█████████████████████████████████████████████████| 127/127 [2:15:22<00:00, 63.96s/it]
+File Path: ./cache_data/exp/instructions_code_prompt
+Model Path:  ../Training/saved_models/exp/saved_M3_instruct_codet5p_16b_100epochs_fp16_code_prompt/final_checkpoint_ser
+100%|█████████████████████████████████████████████████| 127/127 [3:55:21<00:00, 111.19s/it]
+File Path: ./cache_data/exp/instructions_code_prompt_no_decoder_inp
+Model Path:  ../Training/saved_models/exp/saved_M4_instruct_codet5p_16b_100epochs_fp16_code_prompt_no_decoder_inp/final_checkpoint_ser
+100%|█████████████████████████████████████████████████| 127/127 [2:22:35<00:00, 67.37s/it]
+File Path: ./cache_data/exp/instructions_docu_code_prompt
+Model Path:  ../Training/saved_models/exp/saved_M5_instruct_codet5p_16b_100epochs_fp16_docu_code_prompt/final_checkpoint_ser
+100%|█████████████████████████████████████████████████| 127/127 [5:59:04<00:00, 169.64s/it]
+File Path: ./cache_data/exp/instructions_docu_code_prompt_no_decoder_inp
+Model Path:  ../Training/saved_models/exp/saved_M6_instruct_codet5p_16b_100epochs_fp16_docu_code_prompt_no_decoder_inp/final_checkpoint_ser
+100%|█████████████████████████████████████████████████| 127/127 [2:32:38<00:00, 72.12s/it]
+File Path: ./cache_data/exp/instructions_general_prompt_docu_encoder_inp
+Model Path:  ../Training/saved_models/exp/saved_M7_instruct_codet5p_16b_100epochs_fp16_general_prompt_docu_encoder_inp/final_checkpoint_ser
+100%|█████████████████████████████████████████████████| 127/127 [4:07:34<00:00, 116.96s/it]
+File Path: ./cache_data/exp/instructions_code_prompt_docu_encoder_inp
+Model Path:  ../Training/saved_models/exp/saved_M8_instruct_codet5p_16b_100epochs_fp16_code_prompt_docu_encoder_inp/final_checkpoint_ser
+100%|█████████████████████████████████████████████████| 127/127 [3:47:47<00:00, 107.62s/it]
+File Path: ./cache_data/exp/instructions_docu_code_prompt_docu_encoder_inp
+Model Path:  ../Training/saved_models/exp/saved_M9_instruct_codet5p_16b_100epochs_fp16_docu_code_prompt_docu_encoder_inp/final_checkpoint_ser
+100%|█████████████████████████████████████████████████| 127/127 [7:45:05<00:00, 219.73s/it]
